@@ -1,0 +1,47 @@
+.col-50 {
+	background: #fff;
+	text-align: center;
+	color: #000;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+.panel {
+  background: #222;
+  color: #dddddd;
+}
+.popover {
+  width: 240px;
+}
+.ks-grid div[class*="col-"] {
+  background: #fff;
+  text-align: center;
+  color: #000;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+.ks-preloaders {
+  text-align: center;
+}
+.ks-preloader-big {
+  width: 42px;
+  height: 42px;
+}
+.statusbar-overlay {
+  background: #f7f7f8;
+}
+.statusbar-overlay.with-panel-left {
+  background: #f7f7f8;
+}
+.statusbar-overlay.with-panel-right {
+  background: #f7f7f8;
+}
+
+.main-icon {
+	border-radius:21.5px;
+	width: 92px;
+	margin-bottom:-20px;
+}
+.header {
+	margin-top: 30px;
+}

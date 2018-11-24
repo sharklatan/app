@@ -1,29 +1,64 @@
-<!-- We don't need a full layout in this file because this page will be parsed with Ajax. -->
+<div class="PAGE">
 
-<!-- Top Navbar-->
-<div class="navbar">
-    <div class="navbar-inner">
-        <div class="left">
-            <a href="#" class="back link">
-                <i class="icon icon-back"></i>
-                <span>Back</span>
-            </a>
-        </div>
-        <div class="center sliding">About</div>
-        <div class="right">
-            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
-        </div>
-    </div>
+<div class="navbar no-hairline">
+<div class="navbar-inner">
+<div class="left">
+<a href="#" class="link back" style="color: #645cff;">
+<i class="icon icon-back color-purple"></i>
+<span>Back</span>
+</a>
 </div>
-<div class="pages">
-    <div data-page="games" class="page">
-        <div class="page-content">
-            <div class="content-block">
-                <p>SharkApp</p>
+<div class="title"></div>
+<div class="subnavbar">
 
-                <p>WebAPP that collects the most used applications in IOS / JailBreak.
-                  It is a creation of Shark-Design to provide a more native experience in ios and you do not have to visit different sites to find your APP, we work for you.</p>
-            </div>
-        </div>
-    </div>
+<form class="searchbar no-hairline searchbar-init" data-search-container=".search-here" data-search-in=".item-title">
+<div class="searchbar-inner">
+<div class="searchbar-input-wrap">
+<input type="search" placeholder="Search">
+<i class="searchbar-icon"></i>
+<span class="input-clear-button"></span>
+</div>
+<span class="searchbar-disable-button">Cancel</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+<div class="page-content tab">
+
+      <script src="api/games.js"></script>
+      <script src="api/main.js"></script>
+
+<div class="searchbar-backdrop"></div>
+<div class="list media-list searchbar-found search-here no-hairlines-between no-hairlines">
+<ul>
+<li>
+<div class="item-content">
+
+<div id="home" class="item-inner">
+<h1 class="page-title"></h1>
+
+
+
+<div id="app">
+</div>
+
+
+
+
+
+</div>
+</div>
+</li>
+</ul>
+</div>
+
+
+
+
+<div class="block searchbar-not-found">
+<div class="block-inner">Nothing found</div>
+</div>
+</div>
 </div>
