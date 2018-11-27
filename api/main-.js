@@ -24,7 +24,7 @@ function appTemplate(app) {
   `;
 }
 
-document.getElementById("home").innerHTML = `
+document.getElementById("ipas").innerHTML = `
   <h1 class="app-title">APPS (${appsData.length} results)</h1>
   ${appsData.map(appTemplate).join("")}
   <p class="footer">Signed apps ${appsData.length}. Check back soon for updates.</p>
