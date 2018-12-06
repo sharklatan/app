@@ -14,7 +14,7 @@ function appTemplate(app) {
 <div class="item-after"><span class="badge" style="font-size: 15px; background-color: #645cff;">GET</span></div>
 </div>
 <div class="item-subtitle">${app.TBAppVersion}</div>
-<div class="item-text">${app.TBAppDescription}</div>
+<div class="item-text"  id="${app.TBAppSlug}">${app.TBAppDescription}</div>
 </div>
 </a>
 </li>
