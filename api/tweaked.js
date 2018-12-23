@@ -1,7 +1,7 @@
 //https://api.tweakbox.pro/tweaked
 //https://api.tweakbox.pro/tweaked?page= 1 to 3
 
-const appsData = {
+const appsData = [{
 		"TBAppId": 35,
 		"TBAppName": "TwitterDarkMode++",
 		"TBAppSlug": "twitterdarkmode",
