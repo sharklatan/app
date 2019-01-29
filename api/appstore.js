@@ -7653,7 +7653,7 @@ const appsData = [{
 		"TBAppLink": "itms-services:\/\/?action=download-manifest&url=https%3A%2F%2Fapi.tweakboxapp.com%2Fdownload%2Fmsru3o5fVZuxYsejorvw08JeiaayY8uYYYiqn4xhWGZ1bMeVYbnp24KVh6qqq8ell4S847aSkpyRmdyYnrWsnIaPV5Z3ZJdrY4iqpYZiW2x4aMWhasbh34pej6em%2Ftitle%2FLevel%2520HD.",
 		"TBAppVersion": "2.2",
 		"TBAppSize": "15.2MB"
-	}.{
+	}, {
 		"TBAppId": 295100,
 		"TBAppName": "Kipkam",
 		"TBAppSlug": "kipkam",
