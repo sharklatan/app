@@ -22,7 +22,7 @@
     $('#iosversion').html(modifiedVersion);
      
     try {
-        var serviceUrl = "http://findmyjailbreak.com/service/?version=" + modifiedVersion + "&iDevice=" +device;
+        var serviceUrl = "https://findmyjailbreak.com/service/?version=" + modifiedVersion + "&iDevice=" +device;
         //alert("|"+serviceUrl+"|");
         $.ajax({
                 url:serviceUrl,
