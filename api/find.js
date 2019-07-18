@@ -1,4 +1,14 @@
+   let data  = ''
 
+ fetch('https://apps.tweakbox.pro/enjoy/tweakbox.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+
+    data=myJson
+ console.log(data)
+  });
 
 window.onload = function() {
 
@@ -25,8 +35,8 @@ function appTemplate(app) {
 }
 
 document.getElementById("ipas").innerHTML = `
-  <h1 class="app-title">APPS (${appsData.length} results)</h1>
-  ${appsData.map(appTemplate).join("")}
-  <p class="footer">Signed apps ${appsData.length}. Check back soon for updates.</p>
+  <h1 class="app-title">APPS (${Data.length} results)</h1>
+  ${Data.map(appTemplate).join("")}
+  <p class="footer">Signed apps ${Data.length}. Check back soon for updates.</p>
 `;
 };
