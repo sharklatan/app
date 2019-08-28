@@ -1,15 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Simple HttpErrorPages | MIT License | https://github.com/AndiDittrich/HttpErrorPages -->
-    <meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>We've got some trouble | 404 - Resource not found</title>
-    <style type="text/css">/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}/*! Simple HttpErrorPages | MIT X11 License | https://github.com/AndiDittrich/HttpErrorPages */body,html{width:100%;height:100%;background-color:#21232a}body{color:#fff;text-align:center;text-shadow:0 2px 4px rgba(0,0,0,.5);padding:0;min-height:100%;-webkit-box-shadow:inset 0 0 100px rgba(0,0,0,.8);box-shadow:inset 0 0 100px rgba(0,0,0,.8);display:table;font-family:"Open Sans",Arial,sans-serif}h1{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;font-size:36px}h1 small{font-size:68%;font-weight:400;line-height:1;color:#777}a{text-decoration:none;color:#fff;font-size:inherit;border-bottom:dotted 1px #707070}.lead{color:silver;font-size:21px;line-height:1.4}.cover{display:table-cell;vertical-align:middle;padding:0 20px}footer{position:fixed;width:100%;height:40px;left:0;bottom:0;color:#a0a0a0;font-size:14px}</style>
-</head>
-<body>
-    <a href="//alexa.com/siteinfo/sharklatan.com"><script type="text/javascript" src="//xslt.alexa.com/site_stats/js/t/a?url=sharklatan.com"></script></a>
+<meta charset="UTF-8">
+<title>Forbidden</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+      @import url("https://fonts.googleapis.com/css?family=Share+Tech+Mono|Montserrat:700");
 
-    <div class="cover"><h1>Resource not found <small>Error 404</small></h1><p class="lead">The requested resource could not be found but may be available again in the future.</p></div>
-    <footer><p>Technical Contact: <a href="mailto:sharklatan@gmail.com">sharklatan@gmail.com</a></p></footer>
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+body {
+    background-image: linear-gradient(120deg, #4f0088 0%, #000000 100%);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 45vw;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+    color: #ffffff26;
+    text-shadow: 0 0 50px rgba(0, 0, 0, 0.07);
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-family: "Montserrat", monospace;
+}
+
+div {
+    background: rgba(0, 0, 0, 0);
+    width: 70vw;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: 0 auto;
+    padding: 30px 30px 10px;
+    box-shadow: 0 0 150px -20px rgba(0, 0, 0, 0.5);
+    z-index: 3;
+}
+
+P {
+    font-family: "Share Tech Mono", monospace;
+    color: #f5f5f5;
+    margin: 0 0 20px;
+    font-size: 17px;
+    line-height: 1.2;
+}
+
+span {
+    color: #f0c674;
+}
+
+i {
+    color: #8abeb7;
+}
+
+div a {
+    text-decoration: none;
+}
+
+b {
+    color: #81a2be;
+}
+
+a.avatar {
+    position: fixed;
+    bottom: 15px;
+    right: -100px;
+    -webkit-animation: slide 0.5s 4.5s forwards;
+            animation: slide 0.5s 4.5s forwards;
+    display: block;
+    z-index: 4
+}
+
+a.avatar img {
+    border-radius: 100%;
+    width: 44px;
+    border: 2px solid white;
+}
+
+@-webkit-keyframes slide {
+    from {
+        right: -100px;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        opacity: 0;
+    }
+    to {
+        right: 15px;
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes slide {
+    from {
+        right: -100px;
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+        opacity: 0;
+    }
+    to {
+        right: 15px;
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+    </style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<h1>404</h1>
+<div><p>> <span>ERROR CODE</span>: "<i>HTTP 404 Not Found</i>"</p>
+<p>> <span>ERROR DESCRIPTION</span>: "<i>Access Denied. You Do Not Have The Permission To Access This Page On This Server</i>"</p>
+<p>> <span>ERROR POSSIBLY CAUSED BY</span>: [<b>execute access forbidden, read access forbidden, write access forbidden, ssl required, ssl 128 required, ip address rejected, client certificate required, site access denied, too many users, invalid configuration, password change, mapper denied access, client certificate revoked, directory listing denied, client access licenses exceeded, client certificate is untrusted or invalid, client certificate has expired or is not yet valid, passport logon failed, source access denied, infinite depth is denied, too many requests from the same client ip</b>...]</p>
+<p>> <span>SOME PAGES ON THIS SERVER THAT YOU DO HAVE PERMISSION TO ACCESS</span>: [<a href="https://app.sharklatan.com">Home Page</a>, ...]</p><p>> <span>HAVE A NICE DAY SIR AXLEROD :-)</span></p>
+</div>
+<a class="avatar" href="https://twitter.com/sharklatan" title="If you liked follow ?"><img src="https://pbs.twimg.com/profile_images/1050889706186010626/UannDqqq_400x400.jpg" /></a>
+<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-de7e2ef6bfefd24b79a3f68b414b87b8db5b08439cac3f1012092b2290c719cd.js"></script>
+<script id="rendered-js">
+      var str = document.getElementsByTagName('div')[0].innerHTML.toString();
+var i = 0;
+document.getElementsByTagName('div')[0].innerHTML = "";
+
+setTimeout(function () {
+  var se = setInterval(function () {
+    i++;
+    document.getElementsByTagName('div')[0].innerHTML = str.slice(0, i) + "|";
+    if (i == str.length) {
+      clearInterval(se);
+      document.getElementsByTagName('div')[0].innerHTML = str;
+    }
+  }, 10);
+}, 0);
+      //# sourceURL=pen.js
+    </script>
 </body>
 </html>
