@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>HasRemovalPasscode</key>
+	<false/>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -1170,11 +1172,11 @@
 	<key>PayloadOrganization</key>
 	<string>SharApp</string>
 	<key>PayloadRemovalDisallowed</key>
-	<false/>
+	<true/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>87CDC8CC-F4BC-45D9-975D-3D56AEC276BE</string>
+	<string>D71008F4-3882-449D-8E20-FCD827387134</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
