@@ -2,6 +2,11 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>Este Perfil es Beta, no me hago responsable por el mal uso de este.</string>
+	</dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
@@ -10,11 +15,11 @@
 			<key>PayloadDisplayName</key>
 			<string>Restrictions</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.applicationaccess.D3CDD631-6B78-4D74-A381-CB61A866311F</string>
+			<string>com.apple.applicationaccess.91C376F9-75DF-4A05-BEF7-A3A5481CD456</string>
 			<key>PayloadType</key>
 			<string>com.apple.applicationaccess</string>
 			<key>PayloadUUID</key>
-			<string>D3CDD631-6B78-4D74-A381-CB61A866311F</string>
+			<string>91C376F9-75DF-4A05-BEF7-A3A5481CD456</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>allowActivityContinuation</key>
@@ -162,7 +167,7 @@
 			<key>allowUIConfigurationProfileInstallation</key>
 			<true/>
 			<key>allowUSBRestrictedMode</key>
-			<true/>
+			<false/>
 			<key>allowUntrustedTLSPrompt</key>
 			<true/>
 			<key>allowVPNCreation</key>
@@ -227,6 +232,8 @@
 			<false/>
 		</dict>
 	</array>
+	<key>PayloadDescription</key>
+	<string>Perfio Beta para bloquear Actualizaciones</string>
 	<key>PayloadDisplayName</key>
 	<string>Block Ota</string>
 	<key>PayloadIdentifier</key>
@@ -238,7 +245,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>1D8A0CF9-87E8-4B24-A634-DDE0C81377E9</string>
+	<string>78DC8A8F-7DAB-42B5-ABB8-400F011EB8D6</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
