@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/sharklatan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://app.sharklatan.com
+  * I am sharklatan (https://keybase.io/sharklatan) on keybase.
+  * I have a public key ASBrk3NDhOzX6cLLPhNFrsnqyMnYPReZhsrm3JZk3CmxNAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206b93734384ecd7e9c2cb3e1345aec9eac8c9d83d179986cae6dc9664dc29b1340a",
+      "host": "keybase.io",
+      "kid": "01206b93734384ecd7e9c2cb3e1345aec9eac8c9d83d179986cae6dc9664dc29b1340a",
+      "uid": "c2551974ca5a8d2385eb688098b41619",
+      "username": "sharklatan"
+    },
+    "merkle_root": {
+      "ctime": 1591383145,
+      "hash": "e9219da48625b066acb89ef09683a3a8755801301411e7916e434301a771c74d41dc787b89d58f53e7365c66e831c92d8ce8133652cc8b0fef3cffbaa6497463",
+      "hash_meta": "059de9ecb1529e8f4b1e7518d8804d287bfd3ec2f6e2ad69bcbaf6228d5f1949",
+      "seqno": 16542966
+    },
+    "service": {
+      "entropy": "3GC9ITAWCoQdipfGHTeXppi/",
+      "hostname": "app.sharklatan.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1591383158,
+  "expire_in": 504576000,
+  "prev": "5cbe6e4ec5380b0b993dfbe6ff2adc15574b57fd68b26db98f3da28d1bc32154",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEga5NzQ4Ts1+nCyz4TRa7J6sjJ2D0XmYbK5tyWZNwpsTQKp3BheWxvYWTESpcCCsQgXL5uTsU4CwuZPfvm/yrcFVdLV/1osm25jz2ijRvDIVTEIN8kNtWNhDJs9D2ikocMp6CqR9WYAghyK5nlJjRjDF2XAgHCo3NpZ8RAL9lD7eDHXlr/35P1UEpIBrXZMuel7GPR+qnKW+TZJwbxTtlPe3xS8FTXq/N1q4jARY2hJmUTcvsjNGyphgOxCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINhFSnZbI7pnTjEMyTEzudeexAXx0ymH0sErNC88GSAUo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sharklatan
+
+==================================================================
