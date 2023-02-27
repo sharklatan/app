@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menú Desplegable</title>
+</head>
+<body>
+	<select name="devices" onchange="handleSelect(this.value)">
+		<option value="none">-- Seleccione un dispositivo --</option>
+	</select>
+	<div id="betaInfo"></div>
+	<script>
+		async function getFirmwares() {
+			try {
+				const response = await fetch('https://api.ipsw.me/v4/devices/list');
+				const data = await response.json();
+				let devices = data;
+				let select = document.getElementsByName("devices")[0];
+				devices.forEach(device => {
+					let option = `<option value="${device.identifier}">${device.model}</option>`;
+					select.innerHTML += option;
+				})
+			} catch (error) {
+				console.error(error);
+			}
+		}
+
+		async function handleSelect(value) {
+			if (value === "none") return;
+			try {
+				const response = await fetch(`https://api.ipsw.me/v4/device/${value}/latest?type=ipsw`, { mode: 'no-cors' });
+				const data = await response.json();
+				let selectedDevice = data;
+				if (selectedDevice.signed) {
+					let buildNumber = selectedDevice.signed.buildid;
+					let version = selectedDevice.signed.version;
+					console.log("build Number: " + buildNumber + ", version: " + version);
+				}
+				const betaResponse = await fetch(`https://api.m1sta.xyz/betas/${value}`);
+				const betaData = await betaResponse.json();
+				let betaInfo = document.getElementById("betaInfo");
+				if (betaData && betaData.betas && betaData.betas.length > 0) {
+					betaInfo.innerHTML = "Betas: <br>";
+					betaData.betas.forEach(beta => {
+						betaInfo.innerHTML += `- ${beta.version} (${beta.build})<br>`;
+					})
+				} else {
+					betaInfo.innerHTML = "No hay betas disponibles para este dispositivo.";
+				}
+			} catch (error) {
+				console.error(error);
+			}
+		}
+
+		window.onload = getFirmwares;
+	</script>
+</body>
+</html>
